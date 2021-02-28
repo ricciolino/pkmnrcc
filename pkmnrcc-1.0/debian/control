@@ -1,0 +1,12 @@
+Source: pkmnrcc
+Section: games
+Priority: extra
+Maintainer: ricciolino <nicholasredimail@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
+Package: pkmnrcc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Pokémon by ricciolino
+ A remaked version of Pokémon created by ricciolino.

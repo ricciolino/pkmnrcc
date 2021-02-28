@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=pkmnrcc 
+Exec=bash -c 'cd /usr/games/pkmnrcc/bin;./pkmnrcc'
+Terminal=false
+Type=Application
+Icon=pkmnrcc

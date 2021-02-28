@@ -1,0 +1,33 @@
+- [    ] possibile rimuovere lo "scattino" che fa quando cambio mappa?
+- [    ] aggiusta discorso sui FPS 60->vs=4/120->vs=2/250->vs=1
+- [    ] pianifica come gestire il menù start, lo zaino, e i pokemon 
+- [    ] gestisci scelte prese nei confronti di altri personaggi
+         e salva settaggi (tipo: vuoi scambiare il tuo caterpie con...??)
+- [    ] fai dialoghi con altri personaggi
+- [    ] come gestire erba, acqua, e dire se ci possono essere battaglie
+- [    ] crea punti per cambiare location (e.g. entrata in una casa).
+- [DONE] bug quando cambio mappa (a volte segmentation fault)
+         -> risolto: usando controllo su IsMainInMap() quando faccio
+         SetAccessibilityOverTileMapLayer(), succedeva che si settava
+         i bit a 1 anche per le entità fuori dalla mappa corrente!
+- [DONE] itegrare entities statiche (come una casa p.e.) con locEditor
+         e per vederla nelle mappe adiacenti, bisogna aggiunga
+         il QCheckBox in tutti vbox per le static entities
+- [DONE] crea le entità in un layer sopra la mappa (murello da saltare
+         solo in giù, case, etc.).
+- [DONE] fai sw gestionale per creare livelli come file .lua
+- [DONE] trasforma l'acquisizione dei tasti, anzichè basarla su eventi
+         basarla sullo stato della tastiera ad ogni frame.
+- [DONE] salva settaggi generali e ricarica quando apro il gioco di
+         nuovo, fai fai anche specchietto "Salvare la partita? Si/No"
+- [DONE] entry points and exit points for Maps per gestire cambi mappa di
+         dimensioni diverse.
+- [DONE] se quando ricarico settaggi ho omini sovrapposti?
+         (mainPlayer con un altro).
+- [DONE] non permettere ad altri personaggi di sconfinare dalla mappa.
+- [DONE] problema quando salvo settaggi quando cambio mappa: se altro
+         personaggio si muove nel momento che sto attraversando il
+         confine di cambio mappa, fare che se è partito da poco, rimane
+         dov'è, altrimenti continua nella prossima mattonella.
+- [DONE] salva settaggi quando cambio mappa e ricarica settaggi quando
+         rientro.
